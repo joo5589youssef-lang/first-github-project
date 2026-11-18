@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Glory", sans-serif;
+}
+h1{
+    margin:20px 0px 50px 102px;
+}
+h1 span{
+    border-bottom:solid rgba(0, 123, 255, 1) 8px;
+    border-radius: 60px;
+}
+.our-products{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+.card{
+    margin-bottom: 12px;
+    width: 300px;
+    padding: 12px;
+    border: 1px solid rgba(50, 50, 50, 0.2);
+    border-radius: 6px;
+}
+img{
+    border-radius: 6px;
+    margin-bottom:  12px;
+    width: 100%;
+}
+.card h2{
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.card p{
+    margin-bottom: 12px;
+    color: rgba(50, 50, 50, 0.59);
+    font-size:20px ;
+}
+.price{
+    margin-bottom: 12px;
+}
+.price p{
+    color: rgba(40, 167, 69, 1);
+    font-weight: 700;
+    font-size: 22px;
+}
+.price span{
+    color: rgba(220, 53, 69, 1);
+    font-size:18px;
+    font-weight: 700;
+    text-decoration: line-through;
+    margin-left: 6px;
+} 
+.btn{
+    padding: 13px 50px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background-color: rgba(0, 123, 255, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn2{
+    border: solid 2px rgba(0, 123, 255, 1) ;
+    padding: 12px;
+    display: inline;
+    background-color: white;
+    border-bottom-right-radius: 6px;
+}
+.btn2 svg{
+    color: rgba(0, 123, 255, 1) ;
+}
