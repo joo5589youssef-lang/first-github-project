@@ -7,7 +7,13 @@
     font-family: "Glory", sans-serif;
 }
 h1{
-    margin:20px 0px 50px 102px;
+    background-image: linear-gradient(rgb(162, 0, 255),rgb(0, 128, 77));
+    background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content:end;
+    width: 500px;
+    margin: 30px 0px;
 }
 h1 span{
     border-bottom:solid rgba(0, 123, 255, 1) 8px;
@@ -24,6 +30,14 @@ h1 span{
     padding: 12px;
     border: 1px solid rgba(50, 50, 50, 0.2);
     border-radius: 6px;
+    transition: all ease 0.7s;
+    position: relative;
+    overflow: hidden;
+    
+}
+.card:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.23);
 }
 img{
     border-radius: 6px;
@@ -55,6 +69,9 @@ img{
     text-decoration: line-through;
     margin-left: 6px;
 } 
+.button{
+    display: flex;
+}
 .btn{
     padding: 13px 50px;
     border-bottom-left-radius: 6px;
@@ -63,6 +80,14 @@ img{
     color: white;
     font-size: 20px;
     font-weight: 700;
+    display: flex;
+    transition: all ease 0.5s;
+}
+.btn svg{
+    margin-right: 5px;
+}
+.btn:hover{
+    background-color:rgba(0, 123, 255, 0.859);
 }
 .btn2{
     border: solid 2px rgba(0, 123, 255, 1) ;
@@ -70,7 +95,37 @@ img{
     display: inline;
     background-color: white;
     border-bottom-right-radius: 6px;
+    margin-left: 5px;
+}
+.btn2:hover{
+    border: solid 2px rgb(0, 17, 255) ;
 }
 .btn2 svg{
     color: rgba(0, 123, 255, 1) ;
+}
+.sale{
+    position:absolute;
+    left: -32px;
+    top: 15px;
+    background-color: red;
+    width: 120px;
+    text-decoration: none;
+    text-align: center;
+    transform: rotate(-50deg);
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.out-of-stok{
+ position:absolute;
+    left: -35px;
+    top: 40px;
+    background-color: rgba(255, 255, 0, 0.722);
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    transform: rotate(-50deg);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-transform: uppercase;
 }
